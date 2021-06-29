@@ -1,6 +1,6 @@
-// Rustの所有権、参照、借用等のサンプルプログラム
+// Rustの所有権、参照等のサンプルプログラム
 fn main() {
-    let mut num = 1; // immutable(不変) object
+    let mut num = 1; // mutable(可変) object
     let _num_ref1 = &num; // reference(参照)
     let _num_ref2 = &num; // 不変参照(&)は複数存在できる
     let _borrow_num_ref2 = &_num_ref2; // 仮の所有権からも仮の所有権を作成できる(原本は作成できない)
