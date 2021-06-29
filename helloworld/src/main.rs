@@ -1,4 +1,4 @@
-//Rustの標準出力です
+// Rustの標準出力です
 
 fn main() {
     println!("Hello, world!");
