@@ -12,6 +12,6 @@ fn main() {
     let mut num2 = 2; // mutable object
     let num2_mut_ref = &mut num2; // mutable reference
     let num2_mut_ref_move = num2_mut_ref; // 可変参照は複数存在できないため、コピートレイトを実装していない
-                                                  // 可変参照の場合は所有権が移動する
+                                          // 可変参照の場合は所有権が移動する
     println!("num2_mut_ref_copy: {}", num2_mut_ref_move);
 }
